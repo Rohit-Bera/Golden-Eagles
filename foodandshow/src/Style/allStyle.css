@@ -290,6 +290,14 @@ nav .navbar a:hover {
   color: var(--pure);
 }
 
+nav .navbar input {
+  background-color: white;
+  color: black;
+  font-size: 20px;
+}
+nav .navbar input:focus {
+  border: 2px solid black;
+}
 /* MAIN SECTION */
 
 header.hero {

@@ -58,7 +58,7 @@ const LoginForm = () => {
     });
 
     console.log("result", result);
-    if (result.length == 0) {
+    if (result.length === 0) {
       console.log("not in database");
       alert("please enter correct login details");
     } else {

@@ -20,6 +20,7 @@ import News from "./News";
 import Subscribe from "./Subscribe";
 import Contact from "./Contact";
 import Footer from "./Footer";
+import Feedback from "./Feedback";
 
 const Header = () => {
   const style = {
@@ -59,6 +60,13 @@ const Header = () => {
               <Link to="/signUp" style={style}>
                 <img src={edit} alt="user" />
                 <p>Sign-Up</p>
+              </Link>
+            </div>
+            <span class="divider">|</span>
+            <div>
+              <Link to="/feedBack" style={style}>
+                <img src={edit} alt="user" />
+                <p>Feedback</p>
               </Link>
             </div>
           </div>

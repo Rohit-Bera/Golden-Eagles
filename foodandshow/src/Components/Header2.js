@@ -42,6 +42,7 @@ const Header2 = () => {
             <a href="#">Services</a>
             <a href="#">Gallery</a>
             <a href="#">Contact us</a>
+            <input type="text" placeholder="Search.." />
           </div>
         </div>
       </nav>
